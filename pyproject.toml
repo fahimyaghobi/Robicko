@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robicko"
+version = "0.1.0"
+description = "Powerful Rubika Bot Framework (inspired by Pyrogram & Telethon)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Your Name", email = "your@email.com"}]
+keywords = ["rubika", "bot", "framework", "api"]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+include = ["robicko", "robicko.*"]
